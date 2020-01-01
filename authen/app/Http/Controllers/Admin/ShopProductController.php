@@ -112,6 +112,7 @@ class ShopProductController extends Controller
         $item->priceSale = $input['priceSale'];
         $item->stock = isset($input['stock']) ? (int) $input['stock'] : 0;
         $item->cat_id = $input['cat_id'];
+        $item->homepage = isset($input['homepage']) ? (int) $input['homepage'] : 0;
 
         $item->save();
 
@@ -144,6 +145,7 @@ class ShopProductController extends Controller
         $item->priceSale = $input['priceSale'];
         $item->stock = isset($input['stock']) ? (int) $input['stock'] : 0;
         $item->cat_id = $input['cat_id'];
+        $item->homepage = isset($input['homepage']) ? (int) $input['homepage'] : 0;
 
         $item->save();
 

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7d2075c-e679-43b7-a47c-0be51bb4ad46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Http/Controllers/Admin/ShopCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Admin/ShopCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Http/Controllers/Admin/ShopProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Admin/ShopProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/ContentCategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/ContentCategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/ContentTagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/ContentTagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/app/Model/Front/BannerModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/app/Model/Front/BannerModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2018_12_31_074305_create_admins.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_22_094021_create_admins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2018_12_31_150534_create_sellers.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_22_134340_create_sellers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2018_12_31_154535_create_shippers.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_22_143204_create_shippers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_01_070015_create_shop_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_23_144247_create_shop_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_03_131907_create_shop_products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_19_132207_create_content_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_054946_create_content_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_19_132318_create_content_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_055019_create_content_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_19_132421_create_content_pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_055047_create_content_pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_061715_create_content_tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_075835_create_content_tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_063151_create_menus.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_082014_create_menus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_063208_create_menu_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_082029_create_menu_items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_075225_add_memu_id_to_table_menu_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_084817_add_menu_id_to_table_menu_items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_083913_create_global_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_24_144749_create_global_settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_01_20_150000_create_shop_brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_25_073159_create_shop_brands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_16_064828_add_sort_and_total_menu_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_29_113603_add_sort_and_total_menu_items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_16_141041_create_banners.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_30_131815_create_banners.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_16_142104_add_link_field_to_banners.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_30_132857_add_link_field_to_banners.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_16_142418_create_newsletters.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_30_134257_create_newsletters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_17_042143_add_four_fields_to_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2019_12_31_100914_add_four_fields_to_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_17_132347_create_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2020_01_01_131543_create_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/database/migrations/2019_02_17_132408_create_orders_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/database/migrations/2020_01_01_131553_create_orders_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/banners/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/banners/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/banners/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/banners/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/config/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/config/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/category/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/category/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/category/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/category/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/page/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/page/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/page/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/page/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/post/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/post/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/post/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/post/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/tag/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/tag/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/content/tag/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/content/tag/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/media/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/brand/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/brand/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/brand/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/brand/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/category/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/category/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/category/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/category/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/delete.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/order/submit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/product/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/product/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/product/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/content/shop/product/submit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/frontend/content/category/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/frontend/content/category/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/frontend/content/tag/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/frontend/content/tag/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/frontend/homepages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/frontend/homepages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/frontend/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/frontend/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/resources/views/frontend/partials/newsletter.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/resources/views/frontend/partials/newsletter.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/authen/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/authen/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1525573875">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/HomepageController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/authen/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/authen/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/authen/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/authen/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/authen/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/authen/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/authen/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/authen/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/authen/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/authen/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/authen/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/authen/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/authen/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/authen/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/authen/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/authen/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/authen/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/authen/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/authen/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/authen/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/authen/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/authen/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/authen/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/authen/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/authen/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/authen/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/authen/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/authen/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/authen/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/authen/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/authen/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/authen/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/authen/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/authen/vendor/darryldecode/cart" />
+      <path value="$PROJECT_DIR$/authen/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/authen/vendor/composer" />
+      <path value="$PROJECT_DIR$/authen/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/authen/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/authen/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/authen/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/authen/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/authen/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/authen/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/authen/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/authen/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/authen/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/authen/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/authen/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/authen/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/authen/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/authen/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/authen/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/authen/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/authen/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/authen/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/authen/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/authen/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/authen/vendor/paragonie/random_compat" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="authen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="authen" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="authen" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="authen" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lar.shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lar.shop" type="462c0819:PsiDirectoryNode" />
+              <item name="authen" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7d2075c-e679-43b7-a47c-0be51bb4ad46" name="Default Changelist" comment="" />
+      <created>1577896233966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577896233966</updated>
+      <workItem from="1577896235504" duration="434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="434000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/authen/app/Http/Controllers/Frontend/HomepageController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

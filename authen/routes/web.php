@@ -11,75 +11,74 @@
 |
 */
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-/**
- * Homepage route
+/** --------------------------------------------------------------------------------------------------------------------
+ * ------------------------------------------------FRONT_END------------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------------------------------
  */
+
+
+/**------------------------------------------------HOME_PAGE--------------------------------*/
 Route::get('/', 'Frontend\HomepageController@index');
 
-/**
- * Frontend route shop category
- */
+/**------------------------------------------------SEARCH--------------------------------*/
+Route::get('/search', 'Frontend\SearchController@index');
+
+/**------------------------------------------------NEWSLETTER--------------------------------*/
+Route::get('/newsletter', 'Frontend\NewsletterController@index');
+
+Route::post('/newsletter', 'Frontend\NewsletterController@store');
+
+/**------------------------------------------------SHOP_CATEGORY-----------------------------*/
 Route::get('shop/category/{id}', 'Frontend\ShopCategoryController@detail');
 
-/**
- * Frontend route shop product
- */
+/**------------------------------------------------SHOP_PRODUCT-------------------------------*/
 Route::get('shop/product/{id}', 'Frontend\ShopProductController@detail');
 
-/**
- * Frontend route cart giỏ hàng
- */
+/**------------------------------------------------SHOPPING_CART------------------------------*/
 Route::get('shop/cart', 'Frontend\ShopCartController@index');
+
 Route::post('shop/cart/add', 'Frontend\ShopCartController@add');
 Route::post('shop/cart/update', 'Frontend\ShopCartController@update');
 Route::post('shop/cart/remove', 'Frontend\ShopCartController@remove');
 Route::post('shop/cart/clear', 'Frontend\ShopCartController@clear');
 
-/**
- * Frontend route payment thanh toán
- */
+/**------------------------------------------------PAY_MENT-----------------------------------*/
 Route::get('shop/payment', 'Frontend\ShopPaymentController@index');
+
 Route::post('shop/payment', 'Frontend\ShopPaymentController@order');
 Route::get('shop/payment/after', 'Frontend\ShopPaymentController@afterOrder');
 
-/**
- * Frontend route CMS page
- */
+/**------------------------------------------------CMS_PAGE----------------------------------*/
 Route::get('page/{id}', 'Frontend\ContentPageController@detail');
 
-/**
- * Frontend route content category
- */
+/**------------------------------------------------CONTENT_CATEGORY---------------------------*/
 Route::get('content/category/{id}', 'Frontend\ContentCategoryController@detail');
 
-/**
- * Frontend route content tag
- */
-Route::get('content/tag/{id}', 'Frontend\ContentTagController@detail');
-
-/**
- * Frontend route shop product
- */
+/**------------------------------------------------CONTENT_POST-----------------------------*/
 Route::get('content/post/{id}', 'Frontend\ContentPostController@detail');
 
+/**------------------------------------------------CONTENT_TAG--------------------------*/
+Route::get('content/tag/{id}', 'Frontend\ContentTagController@detail');
 
-/**
- * Route cho administrator
+
+
+/** --------------------------------------------------------------------------------------------------------------------
+ * ------------------------------------------------ADMIN----------------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------------------------------
  */
+
 Route::prefix('admin')->group(function() {
     // Gom nhóm các route cho phần admin
 
     /**
-     * ----------------- Route admin authentication --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Authentication---------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
      */
-
     /**
      * URL : authen.com/admin/
      * Route mặc định của admin
@@ -127,10 +126,70 @@ Route::prefix('admin')->group(function() {
      */
     Route::post('logout', 'Auth\Admin\LoginController@logout')->name('admin.auth.logout');
 
+
     /**
-     * ----------------- Route admin shopping --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Users------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('users', 'Admin\AdminManagerController@index');
+    Route::get('users/create', 'Admin\AdminManagerController@create');
+    Route::get('users/{id}/edit', 'Admin\AdminManagerController@edit');
+    Route::get('users/{id}/delete', 'Admin\AdminManagerController@delete');
+
+    Route::post('users', 'Admin\AdminManagerController@store');
+    Route::post('users/{id}', 'Admin\AdminManagerController@update');
+    Route::post('users/{id}/delete', 'Admin\AdminManagerController@destroy');
+
+
+    /**
+     * -------------------Route cho administrator Customer---------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('shop/customer', 'Admin\CustomerManagerController@index');
+    Route::get('shop/customer/create', 'Admin\CustomerManagerController@create');
+    Route::get('shop/customer/{id}/edit', 'Admin\CustomerManagerController@edit');
+    Route::get('shop/customer/{id}/delete', 'Admin\CustomerManagerController@delete');
+
+    Route::post('shop/customer', 'Admin\CustomerManagerController@store');
+    Route::post('shop/customer/{id}', 'Admin\CustomerManagerController@update');
+    Route::post('shop/customer/{id}/delete', 'Admin\CustomerManagerController@destroy');
+
+
+    /**
+     * -------------------Route cho administrator Shipper----------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('shop/shipper', 'Admin\ShipperManagerController@index');
+    Route::get('shop/shipper/create', 'Admin\ShipperManagerController@create');
+    Route::get('shop/shipper/{id}/edit', 'Admin\ShipperManagerController@edit');
+    Route::get('shop/shipper/{id}/delete', 'Admin\ShipperManagerController@delete');
+
+    Route::post('shop/shipper', 'Admin\ShipperManagerController@store');
+    Route::post('shop/shipper/{id}', 'Admin\ShipperManagerController@update');
+    Route::post('shop/shipper/{id}/delete', 'Admin\ShipperManagerController@destroy');
+
+
+    /**
+     * -------------------Route cho administrator Seller----------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('shop/seller', 'Admin\SellerManagerController@index');
+    Route::get('shop/seller/create', 'Admin\SellerManagerController@create');
+    Route::get('shop/seller/{id}/edit', 'Admin\SellerManagerController@edit');
+    Route::get('shop/seller/{id}/delete', 'Admin\SellerManagerController@delete');
+
+    Route::post('shop/seller', 'Admin\SellerManagerController@store');
+    Route::post('shop/seller/{id}', 'Admin\SellerManagerController@update');
+    Route::post('shop/seller/{id}/delete', 'Admin\SellerManagerController@destroy');
+
+    /**
+     * -------------------Route cho administrator Shopping Category---------------------------------
+     * ---------------------------------------------------------------------------------------------
+     * ---------------------------------------------------------------------------------------------
      */
     Route::get('shop/category', 'Admin\ShopCategoryController@index');
     Route::get('shop/category/create', 'Admin\ShopCategoryController@create');
@@ -141,10 +200,11 @@ Route::prefix('admin')->group(function() {
     Route::post('shop/category/{id}', 'Admin\ShopCategoryController@update');
     Route::post('shop/category/{id}/delete', 'Admin\ShopCategoryController@destroy');
 
+
     /**
-     * ----------------- Route admin shopping product --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Shopping Product---------------------------------
+     * --------------------------------------------------------------------------------------------
+     * --------------------------------------------------------------------------------------------
      */
     Route::get('shop/product', 'Admin\ShopProductController@index');
     Route::get('shop/product/create', 'Admin\ShopProductController@create');
@@ -156,45 +216,11 @@ Route::prefix('admin')->group(function() {
     Route::post('shop/product/{id}/delete', 'Admin\ShopProductController@destroy');
 
 
-    Route::get('shop/order', function () {
-        return view('admin.content.shop.order.index');
-    });
-
-    Route::get('shop/review', function () {
-        return view('admin.content.shop.review.index');
-    });
-
-    // Khách hàng
-    Route::get('shop/customer', 'Admin\CustomerManagerController@index');
-    Route::get('shop/customer/create', 'Admin\CustomerManagerController@create');
-    Route::get('shop/customer/{id}/edit', 'Admin\CustomerManagerController@edit');
-    Route::get('shop/customer/{id}/delete', 'Admin\CustomerManagerController@delete');
-
-    Route::post('shop/customer', 'Admin\CustomerManagerController@store');
-    Route::post('shop/customer/{id}', 'Admin\CustomerManagerController@update');
-    Route::post('shop/customer/{id}/delete', 'Admin\CustomerManagerController@destroy');
-
-    // Shipper
-    Route::get('shop/shipper', 'Admin\ShipperManagerController@index');
-    Route::get('shop/shipper/create', 'Admin\ShipperManagerController@create');
-    Route::get('shop/shipper/{id}/edit', 'Admin\ShipperManagerController@edit');
-    Route::get('shop/shipper/{id}/delete', 'Admin\ShipperManagerController@delete');
-
-    Route::post('shop/shipper', 'Admin\ShipperManagerController@store');
-    Route::post('shop/shipper/{id}', 'Admin\ShipperManagerController@update');
-    Route::post('shop/shipper/{id}/delete', 'Admin\ShipperManagerController@destroy');
-
-    // Seller
-    Route::get('shop/seller', 'Admin\SellerManagerController@index');
-    Route::get('shop/seller/create', 'Admin\SellerManagerController@create');
-    Route::get('shop/seller/{id}/edit', 'Admin\SellerManagerController@edit');
-    Route::get('shop/seller/{id}/delete', 'Admin\SellerManagerController@delete');
-
-    Route::post('shop/seller', 'Admin\SellerManagerController@store');
-    Route::post('shop/seller/{id}', 'Admin\SellerManagerController@update');
-    Route::post('shop/seller/{id}/delete', 'Admin\SellerManagerController@destroy');
-
-    // Nhãn hiệu
+    /**
+     * -------------------Route cho administrator Shopping Brands----------------------------------
+     * --------------------------------------------------------------------------------------------
+     * --------------------------------------------------------------------------------------------
+     */
     Route::get('shop/brand', 'Admin\ShopBrandController@index');
     Route::get('shop/brand/create', 'Admin\ShopBrandController@create');
     Route::get('shop/brand/{id}/edit', 'Admin\ShopBrandController@edit');
@@ -204,19 +230,11 @@ Route::prefix('admin')->group(function() {
     Route::post('shop/brand/{id}', 'Admin\ShopBrandController@update');
     Route::post('shop/brand/{id}/delete', 'Admin\ShopBrandController@destroy');
 
-    // Thống kê
-    Route::get('shop/statistic', function () {
-        return view('admin.content.shop.statistic.index');
-    });
-
-    Route::get('shop/product/order', function () {
-        return view('admin.content.shop.adminorder.index');
-    });
 
     /**
-     * ----------------- Route admin nội dung --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Content Category------------------------------
+     * -----------------------------------------------------------------------------------------
+     * -----------------------------------------------------------------------------------------
      */
     Route::get('content/category', 'Admin\ContentCategoryController@index');
     Route::get('content/category/create', 'Admin\ContentCategoryController@create');
@@ -227,7 +245,12 @@ Route::prefix('admin')->group(function() {
     Route::post('content/category/{id}', 'Admin\ContentCategoryController@update');
     Route::post('content/category/{id}/delete', 'Admin\ContentCategoryController@destroy');
 
-    // Content post
+
+    /**
+     * -------------------Route cho administrator Content Post-----------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('content/post', 'Admin\ContentPostController@index');
     Route::get('content/post/create', 'Admin\ContentPostController@create');
     Route::get('content/post/{id}/edit', 'Admin\ContentPostController@edit');
@@ -237,7 +260,12 @@ Route::prefix('admin')->group(function() {
     Route::post('content/post/{id}', 'Admin\ContentPostController@update');
     Route::post('content/post/{id}/delete', 'Admin\ContentPostController@destroy');
 
-    // Content page
+
+    /**
+     * -------------------Route cho administrator Content Page-----------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('content/page', 'Admin\ContentPageController@index');
     Route::get('content/page/create', 'Admin\ContentPageController@create');
     Route::get('content/page/{id}/edit', 'Admin\ContentPageController@edit');
@@ -247,7 +275,12 @@ Route::prefix('admin')->group(function() {
     Route::post('content/page/{id}', 'Admin\ContentPageController@update');
     Route::post('content/page/{id}/delete', 'Admin\ContentPageController@destroy');
 
-    // Content tags
+
+    /**
+     * -------------------Route cho administrator Content Tag-----------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('content/tag', 'Admin\ContentTagController@index');
     Route::get('content/tag/create', 'Admin\ContentTagController@create');
     Route::get('content/tag/{id}/edit', 'Admin\ContentTagController@edit');
@@ -257,10 +290,11 @@ Route::prefix('admin')->group(function() {
     Route::post('content/tag/{id}', 'Admin\ContentTagController@update');
     Route::post('content/tag/{id}/delete', 'Admin\ContentTagController@destroy');
 
+
     /**
-     * ----------------- Route admin menu --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Menu-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
      */
     Route::get('menu', 'Admin\MenuController@index');
     Route::get('menu/create', 'Admin\MenuController@create');
@@ -271,6 +305,12 @@ Route::prefix('admin')->group(function() {
     Route::post('menu/{id}', 'Admin\MenuController@update');
     Route::post('menu/{id}/delete', 'Admin\MenuController@destroy');
 
+
+    /**
+     * -------------------Route cho administrator Menu Item--------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('menuitems', 'Admin\MenuItemController@index');
     Route::get('menuitems/create', 'Admin\MenuItemController@create');
     Route::get('menuitems/{id}/edit', 'Admin\MenuItemController@edit');
@@ -280,46 +320,32 @@ Route::prefix('admin')->group(function() {
     Route::post('menuitems/{id}', 'Admin\MenuItemController@update');
     Route::post('menuitems/{id}/delete', 'Admin\MenuItemController@destroy');
 
-    /**
-     * ----------------- Route admin users --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
-     */
-
-    Route::get('users', 'Admin\AdminManagerController@index');
-    Route::get('users/create', 'Admin\AdminManagerController@create');
-    Route::get('users/{id}/edit', 'Admin\AdminManagerController@edit');
-    Route::get('users/{id}/delete', 'Admin\AdminManagerController@delete');
-
-    Route::post('users', 'Admin\AdminManagerController@store');
-    Route::post('users/{id}', 'Admin\AdminManagerController@update');
-    Route::post('users/{id}/delete', 'Admin\AdminManagerController@destroy');
 
     /**
-     * ----------------- Route admin users --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Media------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
      */
-
     Route::get('media', function () {
         return view('admin.content.media.index');
     });
 
-    /**
-     * ----------------- Route admin config --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
-     */
 
+    /**
+     * -------------------Route cho administrator Config-----------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('config', 'Admin\ConfigController@index');
+
     Route::post('config', 'Admin\ConfigController@store');
 
-    /**
-     * ----------------- Route admin newsletters --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
-     */
 
+    /**
+     * -------------------Route cho administrator Newsletters-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
     Route::get('newsletters', 'Admin\NewslettersController@index');
     Route::get('newsletters/create', 'Admin\NewslettersController@create');
     Route::get('newsletters/{id}/edit', 'Admin\NewslettersController@edit');
@@ -330,11 +356,10 @@ Route::prefix('admin')->group(function() {
     Route::post('newsletters/{id}/delete', 'Admin\NewslettersController@destroy');
 
     /**
-     * ----------------- Route admin banners --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Banner-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
      */
-
     Route::get('banners', 'Admin\BannerController@index');
     Route::get('banners/create', 'Admin\BannerController@create');
     Route::get('banners/{id}/edit', 'Admin\BannerController@edit');
@@ -344,19 +369,11 @@ Route::prefix('admin')->group(function() {
     Route::post('banners/{id}', 'Admin\BannerController@update');
     Route::post('banners/{id}/delete', 'Admin\BannerController@destroy');
 
-    /**
-     * ----------------- Route admin contacts --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
-     */
-    Route::get('contacts', function () {
-        return view('admin.content.contacts.index');
-    });
 
     /**
-     * ----------------- Route admin email --------------------
-     * ---------------------------------------------------------
-     * ---------------------------------------------------------
+     * -------------------Route cho administrator Email-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
      */
     Route::get('email/inbox', function () {
         return view('admin.content.email.index');
@@ -370,9 +387,53 @@ Route::prefix('admin')->group(function() {
         return view('admin.content.email.send');
     });
 
+
+    /**
+     * -------------------Route cho administrator Contact-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('contacts', function () {
+        return view('admin.content.contacts.index');
+    });
+
+    /**
+     * -------------------Route cho administrator Order-------------------------------------
+     * ------------------------------------------------------------------------------------
+     * ------------------------------------------------------------------------------------
+     */
+    Route::get('shop/order', 'Admin\ShopOrderController@index');
+    Route::get('shop/order/{id}/edit', 'Admin\ShopOrderController@edit');
+    Route::get('shop/order/{id}/delete', 'Admin\ShopOrderController@delete');
+
+    Route::post('shop/order/{id}', 'Admin\ShopOrderController@update');
+    Route::post('shop/order/{id}/delete', 'Admin\ShopOrderController@destroy');
+
+
+    Route::get('shop/review', function () {
+        return view('admin.content.shop.review.index');
+    });
+
+    Route::get('shop/review', function () {
+        return view('admin.content.shop.review.index');
+    });
+
+
+
+    Route::get('shop/statistic', function () {
+        return view('admin.content.shop.statistic.index');
+    });
+
+    Route::get('shop/product/order', function () {
+        return view('admin.content.shop.adminorder.index');
+    });
+
+
 });
-
-
+/** --------------------------------------------------------------------------------------------------------------------
+ * ----------------------------------------------------SELLER-----------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------------------------------
+ */
 /**
  * Route cho các nhà cung cấp sản phẩm ( seller )
  */
@@ -428,9 +489,12 @@ Route::prefix('seller')->group(function() {
 
 
 });
-
+/** --------------------------------------------------------------------------------------------------------------------
+ * ----------------------------------------------------SHIPPER----------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------------------------------
+ */
 /**
- * Route cho các nhà cung cấp sản phẩm ( seller )
+ * Route cho các nhà vận chuyển sản phẩm ( shipper )
  */
 Route::prefix('shipper')->group(function() {
     // Gom nhóm các route cho phần shipper
@@ -482,4 +546,3 @@ Route::prefix('shipper')->group(function() {
     Route::post('logout', 'Auth\Shipper\LoginController@logout')->name('shipper.auth.logout');
 
 });
-

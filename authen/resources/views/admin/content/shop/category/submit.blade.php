@@ -32,6 +32,15 @@
                         <input type="text" name="slug" value="{{ old('slug') }}" class="form-control1" id="focusedinput" placeholder="Default Input">
                     </div>
                 </div>
+                <div class="form-group">
+                    <label for="focusedinput" class="col-sm-2 control-label">Homepage</label>
+                    <div class="col-sm-8">
+                        <select name="homepage">
+                            <option value="0">Không</option>
+                            <option value="1">Có</option>
+                        </select>
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <label for="focusedinput" class="col-sm-2 control-label">Images</label>
@@ -68,7 +77,7 @@
     <script src="{{ asset('/vendor/laravel-filemanager/js/lfm.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.lfm-btn').filemanager('image', {'prefix':'http://localhost/lar.tuto/authen/public/laravel-filemanager'});
+            $('.lfm-btn').filemanager('image', {'prefix':'http://localhost/lar.shop/authen/public/laravel-filemanager'});
 
         });
 

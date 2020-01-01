@@ -47,7 +47,8 @@
             });
         </script>
         <div class="col-md-4 search-agileinfo">
-            <form action="#" method="post">
+            <form action="{{ url('/search') }}" method="get">
+                @csrf
                 <input type="search" name="Search" placeholder="Search for a Product..." required="">
                 <button type="sub" class="btn btn-default search" aria-label="Left Align">
                     <i class="fa fa-search" aria-hidden="true"> </i>

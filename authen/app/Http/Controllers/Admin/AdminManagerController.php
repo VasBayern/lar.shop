@@ -111,7 +111,7 @@ class AdminManagerController extends Controller
 
         $item->save();
 
-        return redirect('/admin/content/tag');*/
+        return redirect('/admin/users');*/
     }
 
     public function destroy($id) {
@@ -119,6 +119,6 @@ class AdminManagerController extends Controller
 
         $item->delete();
 
-        return redirect('/admin/content/tag');*/
+        return redirect('/admin/users');*/
     }
 }

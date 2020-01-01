@@ -40,6 +40,16 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="focusedinput" class="col-sm-2 control-label">Homepage</label>
+                    <div class="col-sm-8">
+                        <select name="homepage">
+                            <option value="0" <?php echo ($product->homepage == 0) ? 'selected' : '' ?>>Không</option>
+                            <option value="1" <?php echo ($product->homepage == 1) ? 'selected' : '' ?>>Có</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
                     <label for="focusedinput" class="col-sm-2 control-label">Slug</label>
                     <div class="col-sm-8">
                         <input type="text" name="slug" class="form-control1" id="focusedinput" value="{{ $product->slug }}" placeholder="Default Input">
@@ -149,7 +159,7 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            var domain = "http://localhost/lar.tuto/authen/public/laravel-filemanager";
+            var domain = "http://localhost/lar.shop/authen/public/laravel-filemanager";
             $('.lfm-btn').filemanager('image', {prefix: domain});
 
             $('#plus-image').on('click', function (e) {
@@ -187,7 +197,7 @@
 
                 $( html ).insertBefore( box );
 
-                var domain = "http://localhost/lar.tuto/authen/public/laravel-filemanager";
+                var domain = "http://localhost/lar.shop/authen/public/laravel-filemanager";
                 $('.lfm-btn').filemanager('image', {prefix: domain});
 
 

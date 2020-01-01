@@ -117,7 +117,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
             // https://unisharp.github.io/laravel-filemanager/integration
             var editor_config = {
-                path_absolute : "http://localhost/lar.tuto/authen/public/",
+                path_absolute : "http://localhost/lar.shop/authen/public/",
                 selector: "textarea.mytinymce",
                 plugins: [
                     "advlist autolink lists link image charmap print preview hr anchor pagebreak",
