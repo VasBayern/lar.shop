@@ -3,6 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="58472ff6-63a3-4993-971a-c91883722bea" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_23_162324_create_shop_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/07_427308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/427308_sub2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/427308_sub7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/8e8754ef-7b20-2400-4d35-0015906167b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20298-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20298-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20303-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20303-2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/07_427308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/427308_sub2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/427308_sub7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/8e8754ef-7b20-2400-4d35-0015906167b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20298-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20298-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20303-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20303-2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/tsn90695.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/tsn90695_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/tsn90695.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/tsn90695_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/shop_dt.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/authen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/authen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -157,11 +186,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/app/Model/Front/ShopCategoryModel.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/resources/views/frontend/shop/product/detail.blade.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/app/Model/Front/ShopCategoryModel.php" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/resources/views/frontend/shop/product/detail.blade.php" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../../videosourcecode1-master/videosourcecode1-master/16-authen/authen/resources/views/admin/content/users" />
   </component>
   <component name="RecentsManager">
@@ -220,21 +249,41 @@
       <workItem from="1580291141172" duration="173000" />
       <workItem from="1580291469179" duration="218000" />
       <workItem from="1580294921575" duration="634000" />
-      <workItem from="1596798307097" duration="1674000" />
+      <workItem from="1596798307097" duration="1981000" />
     </task>
+    <task id="LOCAL-00001" summary="abc">
+      <created>1596800267275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596800267275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="abc" />
+    <option name="LAST_COMMIT_MESSAGE" value="abc" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1596799985246">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1596800264936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596799985246" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596799975124">
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596800264936" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1596800295798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596799975124" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596800295798" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596800025123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596800025123" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596800285133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596800285133" />
   </component>
 </project>
