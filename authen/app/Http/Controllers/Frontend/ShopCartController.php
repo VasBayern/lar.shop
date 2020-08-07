@@ -21,14 +21,15 @@ class ShopCartController extends Controller
 
         $cartCollection = \Cart::getContent();
 
-        $data['cart_products'] = $cartCollection;
-        $products = array();
 
+        $data['cart_products'] = $cartCollection;
+
+        $products = array();
         foreach ($cartCollection as $p) {
             $pid = $p->id;
             $products[$pid] = ShopProductModel::find($pid);
-
         }
+
         $data['products'] = $products;
         $data['total_payment'] = \Cart::getTotal();
         $data['total_qtt_cart'] = \Cart::getTotalQuantity();
@@ -68,7 +69,6 @@ class ShopCartController extends Controller
             session()->save();
 
         }
-
         echo \GuzzleHttp\json_encode($response);
         exit;
 

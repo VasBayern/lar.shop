@@ -1,9 +1,9 @@
 @extends('admin.layouts.glance')
 @section('title')
-    Danh mục nội dung
+    Xóa bài viết
 @endsection
 @section('content')
-    <h1> Xóa tag {{ $tag->id . ' : ' .$tag->name }}</h1>
+    <h1>   Xóa bài viết {{ $tag->id . ' : ' .$tag->name }}</h1>
 
     <div class="row">
         <div class="form-three widget-shadow">

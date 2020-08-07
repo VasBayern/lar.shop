@@ -11,7 +11,7 @@
  Target Server Version : 100410
  File Encoding         : 65001
 
- Date: 02/01/2020 01:23:35
+ Date: 07/05/2020 19:56:24
 */
 
 SET NAMES utf8mb4;
@@ -32,12 +32,14 @@ CREATE TABLE `admins`  (
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `admins_email_unique`(`email`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of admins
 -- ----------------------------
-INSERT INTO `admins` VALUES (1, 'Việt Anh', 'vastb98@gmail.com', NULL, '$2y$10$UxI44Rlo/3g.vgHIpB90Xu825Nd8ONHNte/mLX8lhbukPluAOOc5K', 'SCIGmTePO0BYdaWVq4rZAELDVSjGFHy4VmJMCWPhNq8MNXeH1D5Tj2o3oWGz', '2019-12-22 11:49:22', '2019-12-22 11:49:22');
+INSERT INTO `admins` VALUES (1, 'Việt Anh', 'vastb98@gmail.com', NULL, '$2y$10$UxI44Rlo/3g.vgHIpB90Xu825Nd8ONHNte/mLX8lhbukPluAOOc5K', '1yH0qMoQ7UrmAmAD3wL6Ho11puHiN9Yh0yHwsLHF8U8hWpVWFeo0tIkowhhw', '2019-12-22 11:49:22', '2019-12-22 11:49:22');
+INSERT INTO `admins` VALUES (3, 'Việt', 'vastb1998@gmail.com', NULL, '$2y$10$AxI6xXI38IxKlAzdQScZNOB0biPWKPollWKi8ci5QrW26qXl6f57.', NULL, '2020-01-02 08:20:14', '2020-01-02 08:20:14');
+INSERT INTO `admins` VALUES (4, 'Boss', 'user1@gmail.com', NULL, '$2y$10$uGEUDgqCJ1BKxYtGVmK0PuKlvYCHgNq6GRgo1N8hJvIZpA8UiSk5m', NULL, '2020-01-02 08:20:56', '2020-01-02 08:20:56');
 
 -- ----------------------------
 -- Table structure for banners
@@ -223,15 +225,15 @@ CREATE TABLE `menu_items`  (
 -- ----------------------------
 -- Records of menu_items
 -- ----------------------------
-INSERT INTO `menu_items` VALUES (1, 'Shop category', '1', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/category/1', '', '<p>Shop Category</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -160px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:40:24', '2019-12-30 10:55:38', 1, 1, 0);
+INSERT INTO `menu_items` VALUES (1, 'Shop category', '1', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/category/1', '', '<p>Footer Menu 3</p>', 9, '2019-12-30 10:40:24', '2020-01-05 08:46:26', 1, 1, 0);
 INSERT INTO `menu_items` VALUES (2, 'Shop Product', '2', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/product/1', '', '<p>Footer Menu 3</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -97px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:41:38', '2019-12-30 10:56:00', 1, 0, 0);
-INSERT INTO `menu_items` VALUES (3, 'Content Category', '3', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/content/category/2', '', '<p>Content Category</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -122px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:42:43', '2019-12-30 10:56:15', 1, 0, 0);
+INSERT INTO `menu_items` VALUES (3, 'Content Category', '3', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/content/category/2', '', '<p>Footer Menu 3</p>', 9, '2019-12-30 10:42:43', '2020-01-05 08:54:54', 1, 0, 0);
 INSERT INTO `menu_items` VALUES (4, 'Custom Link', '7', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"https:\\/\\/www.google.com\\/\"}', 'https://www.google.com/', '', '<p>Footer Menu 3</p>', 9, '2019-12-30 10:44:04', '2019-12-30 10:56:25', 1, 2, 0);
 INSERT INTO `menu_items` VALUES (5, 'Content Post', '4', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/content/post/1', '', '<p>Content Post</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -245px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:44:45', '2019-12-30 10:56:39', 1, 0, 0);
-INSERT INTO `menu_items` VALUES (6, 'Content Page', '5', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/page/1', '', '<p>Content Page</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -137px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:45:15', '2019-12-30 10:56:51', 1, 0, 0);
+INSERT INTO `menu_items` VALUES (6, 'Content Page', '5', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"3\",\"params_6\":\"1\",\"params_7\":\"\"}', '/page/3', '', '<p>Footer Menu 3</p>', 9, '2019-12-30 10:45:15', '2020-01-04 07:29:46', 1, 0, 0);
 INSERT INTO `menu_items` VALUES (7, 'Trang chủ', '7', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"http:\\/\\/localhost\\/lar.shop\\/authen\\/public\\/\"}', 'http://localhost/lar.shop/authen/public/', '', '<p>Footer Menu 3</p>', 0, '2019-12-30 10:45:48', '2020-01-01 18:22:20', 1, 0, 0);
 INSERT INTO `menu_items` VALUES (8, 'Content Tag', '6', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/content/tag/1', '', '<p>Content Tag</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -299px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 9, '2019-12-30 10:46:45', '2019-12-30 10:57:04', 1, 0, 0);
-INSERT INTO `menu_items` VALUES (9, 'Demo', '7', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '', '', '<p>Demo</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -249px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 0, '2019-12-30 10:49:40', '2019-12-30 11:04:15', 1, 0, 7);
+INSERT INTO `menu_items` VALUES (9, 'Demo', '7', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '', '', '<p>Footer Menu 3</p>', 0, '2019-12-30 10:49:40', '2020-01-05 08:06:25', 1, 0, 7);
 INSERT INTO `menu_items` VALUES (10, 'Shop', '1', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/category/1', '', '<p>Shop</p>', 0, '2019-12-30 10:58:58', '2019-12-30 11:01:53', 1, 0, 3);
 INSERT INTO `menu_items` VALUES (11, 'Women\'s Clothing', '1', '{\"params_1\":\"1\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/category/1', '', '<p>Women\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -131px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 10, '2019-12-30 10:59:29', '2019-12-30 11:00:44', 1, 0, 0);
 INSERT INTO `menu_items` VALUES (12, 'Men\'s Clothing', '1', '{\"params_1\":\"2\",\"params_2\":\"1\",\"params_3\":\"2\",\"params_4\":\"1\",\"params_5\":\"1\",\"params_6\":\"1\",\"params_7\":\"\"}', '/shop/category/2', '', '<p>Men\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -107px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', 10, '2019-12-30 11:00:04', '2019-12-30 11:00:31', 1, 3, 0);
@@ -349,13 +351,15 @@ CREATE TABLE `orders`  (
   `created_at` timestamp(0) NULL DEFAULT NULL,
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of orders
 -- ----------------------------
 INSERT INTO `orders` VALUES (1, 'Nguyễn Việt Anh', '0346741998', 'vastb98@gmail.com', '<p>Giao h&agrave;ng nhanh nha</p>', 'cầu giấy', 'Hà Nội', 'Vietnam', '48000000', '1', '2020-01-01 15:36:12', '2020-01-01 15:36:50');
 INSERT INTO `orders` VALUES (2, 'Nguyễn Việt Anh', '0346741998', 'vastb98@gmail.com', 'ssss', 'cầu giấy', 'Hà Nội', 'Vietnam', '8000000', '0', '2020-01-01 18:06:09', '2020-01-01 18:06:09');
+INSERT INTO `orders` VALUES (3, 'Nguyễn Việt Anh', '0346741998', 'vastb98@gmail.com', '<p>aa</p>', 'cầu giấy', 'Hà Nội', 'Vietnam', '72000000', '1', '2020-02-13 10:25:39', '2020-02-13 10:26:13');
+INSERT INTO `orders` VALUES (4, 'Viêt Anh', '0346741998', 'vastb98@gmail.com', 'abc', 'ádf', 'qw', 'VN', '18000000', '0', '2020-05-07 12:49:04', '2020-05-07 12:49:04');
 
 -- ----------------------------
 -- Table structure for orders_detail
@@ -372,7 +376,7 @@ CREATE TABLE `orders_detail`  (
   `created_at` timestamp(0) NULL DEFAULT NULL,
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of orders_detail
@@ -380,6 +384,8 @@ CREATE TABLE `orders_detail`  (
 INSERT INTO `orders_detail` VALUES (1, 1, 1, 3, 8000000, 24000000, '0', '2020-01-01 15:36:12', '2020-01-01 15:36:12');
 INSERT INTO `orders_detail` VALUES (2, 1, 4, 3, 8000000, 24000000, '0', '2020-01-01 15:36:12', '2020-01-01 15:36:12');
 INSERT INTO `orders_detail` VALUES (3, 2, 8, 1, 8000000, 8000000, '0', '2020-01-01 18:06:09', '2020-01-01 18:06:09');
+INSERT INTO `orders_detail` VALUES (4, 3, 2, 4, 18000000, 72000000, '0', '2020-02-13 10:25:39', '2020-02-13 10:25:39');
+INSERT INTO `orders_detail` VALUES (5, 4, 2, 1, 18000000, 18000000, '0', '2020-05-07 12:49:04', '2020-05-07 12:49:04');
 
 -- ----------------------------
 -- Table structure for password_resets
@@ -481,11 +487,11 @@ CREATE TABLE `shop_category`  (
 -- ----------------------------
 -- Records of shop_category
 -- ----------------------------
-INSERT INTO `shop_category` VALUES (1, 'Women\'s Clothing', 'womens-clothing', '/files/1/clothsbanner.jpg', '<p>Women\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -279px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '<p>Women\'s Clothing</p>\r\n<p>&nbsp;</p>', '2019-12-23 15:43:29', '2020-01-01 15:42:59', 1);
+INSERT INTO `shop_category` VALUES (1, 'Women\'s Clothing 123', 'womens-clothing', '/files/1/clothsbanner.jpg', '<p>Women\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -279px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '<p>Women\'s Clothing</p>\r\n<p>&nbsp;</p>', '2019-12-23 15:43:29', '2020-01-02 11:50:11', 1);
 INSERT INTO `shop_category` VALUES (2, 'Men\'s Clothing', 'mens-clothing', '/files/1/clothsbanner.jpg', '<p>Men\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -244px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '<p>Men\'s Clothing</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -154px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '2019-12-23 15:44:21', '2020-01-01 15:59:56', 1);
 INSERT INTO `shop_category` VALUES (3, 'Kid\'s Wear', 'kids-wear', '/files/1/clothsbanner.jpg', '<p>Kid\'s Wear</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -323px; top: 32.7708px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '<p>Kid\'s Wear</p>\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -126px; top: -14.0069px;\">\r\n<div class=\"gtx-trans-icon\">&nbsp;</div>\r\n</div>', '2019-12-23 15:44:54', '2020-01-01 16:01:32', 1);
 INSERT INTO `shop_category` VALUES (4, 'Party Wear', 'party-wear', '/files/1/clothsbanner.jpg', '<p>Party Wear</p>', '<p>Party Wear</p>', '2019-12-30 10:20:06', '2020-01-01 16:01:39', 1);
-INSERT INTO `shop_category` VALUES (5, 'Casuals', 'casuals', '/files/1/clothsbanner.jpg', '<p>Casuals</p>', '<p>Casuals</p>', '2019-12-30 10:20:49', '2019-12-30 11:39:04', 0);
+INSERT INTO `shop_category` VALUES (5, 'Casuals', 'casuals', '/files/1/clothsbanner.jpg', '<p>Casuals</p>', '<p>Casuals</p>', '2019-12-30 10:20:49', '2020-01-02 13:55:13', 1);
 INSERT INTO `shop_category` VALUES (6, 'Night Wear', 'night-wear', '/files/1/clothsbanner.jpg', '<p>Night Wear</p>', '<p>Night Wear</p>', '2019-12-30 10:21:11', '2019-12-30 11:39:16', 0);
 INSERT INTO `shop_category` VALUES (7, 'Formals', 'formals', '/files/1/clothsbanner.jpg', '<p>Formals</p>', '<p>Formals</p>', '2019-12-30 10:21:32', '2019-12-30 11:39:22', 0);
 INSERT INTO `shop_category` VALUES (8, 'Inner Wear', 'inner-wear', '/files/1/clothsbanner.jpg', '<p>Inner Wear</p>', '<p>Inner Wear</p>', '2019-12-30 10:22:29', '2019-12-30 11:39:29', 0);
@@ -552,6 +558,12 @@ CREATE TABLE `users`  (
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `users_email_unique`(`email`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of users
+-- ----------------------------
+INSERT INTO `users` VALUES (1, 'Việt', 'vastb98@gmail.com', NULL, '$2y$10$uUKAMBtbQibhOEJBvorso.ka1RXTTx3fe5XLGOqyTUuX8bDYkEP9C', NULL, '2020-01-02 08:27:11', '2020-01-02 08:27:11');
+INSERT INTO `users` VALUES (2, 'Anh', 'vastb1998@gmail.com', NULL, '$2y$10$0bdS7qlHqR7SC7yrKafw8.O3TEVi.fjqqa6AYSWHToPofj.uQDBsi', NULL, '2020-05-07 12:47:12', '2020-05-07 12:47:12');
 
 SET FOREIGN_KEY_CHECKS = 1;

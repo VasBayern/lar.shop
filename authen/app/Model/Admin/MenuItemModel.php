@@ -158,9 +158,9 @@ class MenuItemModel extends Model
 
                     if ($lvl == 1) {
                         $li_class = (isset($category['total']) && ($category['total'] > 0)) ? 'dropdown ' : '';
-                        $html .= '<li class="'.$li_class.'"><a href="'.$menu_link.'" class="hyper" target="_blank"><span>';
+                        $html .= '<li class="'.$li_class.'"><a href="'.$menu_link.'" class="hyper"><span>';
                     } elseif ($lvl == 2) {
-                        $html .= '<li><a href="'.$menu_link.'" target="_blank"><i class="fa fa-angle-right" aria-hidden="true"></i>';
+                        $html .= '<li><a href="'.$menu_link.'"><i class="fa fa-angle-right" aria-hidden="true"></i>';
                     } else {
 
                     }

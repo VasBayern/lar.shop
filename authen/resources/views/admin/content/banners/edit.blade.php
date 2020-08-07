@@ -3,7 +3,7 @@
     Danh mục nội dung
 @endsection
 @section('content')
-    <h1> Sửa trang {{ $banner->id . ' : ' .$banner->name }}</h1>
+    <h1> Sửa banner {{ $banner->id . ' : ' .$banner->name }}</h1>
 
     <div class="row">
         <div class="form-three widget-shadow">

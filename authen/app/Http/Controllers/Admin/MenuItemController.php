@@ -151,7 +151,7 @@ class MenuItemController extends Controller
                 $final_link = '/content/post/' . (int) $params['params_4'];
                 break;
             case 5:
-                $final_link = '/page/'. (int) $params['params_5'];
+                $final_link = '/content/page/'. (int) $params['params_5'];
                 break;
             case 6:
 
@@ -247,7 +247,7 @@ class MenuItemController extends Controller
                 $final_link = '/content/post/' . (int) $params['params_4'];
                 break;
             case 5:
-                $final_link = '/page/'. (int) $params['params_5'];
+                $final_link = '/content/page/'. (int) $params['params_5'];
                 break;
             case 6:
 

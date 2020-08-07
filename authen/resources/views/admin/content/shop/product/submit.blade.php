@@ -59,7 +59,7 @@
                          <a id="lfm1" data-input="thumbnail1" data-preview="holder1" class="lfm-btn btn btn-primary">
                            <i class="fa fa-picture-o"></i> Choose
                          </a>
-                            <a class="btn btn-warning remove-image">
+                         <a class="btn btn-warning remove-image">
                            <i class="fa fa-remove"></i> Xóa
                          </a>
                        </span>

@@ -369,34 +369,6 @@ Route::prefix('admin')->group(function() {
     Route::post('banners/{id}', 'Admin\BannerController@update');
     Route::post('banners/{id}/delete', 'Admin\BannerController@destroy');
 
-
-    /**
-     * -------------------Route cho administrator Email-------------------------------------
-     * ------------------------------------------------------------------------------------
-     * ------------------------------------------------------------------------------------
-     */
-    Route::get('email/inbox', function () {
-        return view('admin.content.email.index');
-    });
-
-    Route::get('email/draft', function () {
-        return view('admin.content.email.draft');
-    });
-
-    Route::get('email/send', function () {
-        return view('admin.content.email.send');
-    });
-
-
-    /**
-     * -------------------Route cho administrator Contact-------------------------------------
-     * ------------------------------------------------------------------------------------
-     * ------------------------------------------------------------------------------------
-     */
-    Route::get('contacts', function () {
-        return view('admin.content.contacts.index');
-    });
-
     /**
      * -------------------Route cho administrator Order-------------------------------------
      * ------------------------------------------------------------------------------------

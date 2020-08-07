@@ -15,11 +15,11 @@
                 <div class="w3ls_dresses_grid_left_grid_sub">
                     <div class="ecommerce_dres-type">
                         <ul>
-                            <li><a href="women.html">Dresses</a></li>
-                            <li><a href="women.html">Sarees</a></li>
-                            <li><a href="women.html">Shorts & Skirts</a></li>
-                            <li><a href="women.html">Jeans</a></li>
-                            <li><a href="women.html">Shirts</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Sarees</a></li>
+                            <li><a href="#">Shorts & Skirts</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirts</a></li>
                         </ul>
                     </div>
                 </div>

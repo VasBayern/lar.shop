@@ -50,7 +50,7 @@
                          <a id="lfm1" data-input="thumbnail1" data-preview="holder1" class="lfm-btn btn btn-primary">
                            <i class="fa fa-picture-o"></i> Choose
                          </a>
-                       </span>
+                        </span>
                         <input id="thumbnail1" type="text" name="image" value="{{ old('image') }}" class="form-control1" id="focusedinput" placeholder="Default Input">
                         <img id="holder1" style="margin-top:15px;max-height:100px;">
                     </div>
