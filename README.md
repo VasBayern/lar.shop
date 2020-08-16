@@ -1,3 +1,3 @@
 # lar.shop
-admin user admin@gmail.com
-pass 12345678
+admin user vastb98@gmail.com
+pass 123456789
