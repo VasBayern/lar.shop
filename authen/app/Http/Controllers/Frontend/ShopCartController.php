@@ -42,13 +42,12 @@ class ShopCartController extends Controller
 
         var_dump(session('cart_item'));*/
 
-        return view('frontend.cart.index', $data);
+        return view('frontend.cart.index1', $data);
     }
 
 
     public function add(Request $request) {
         $input = $request->all();
-
         $product_id = (int) $input['w3ls1_item'];
         $quantity = (int) $input['add'];
 
@@ -73,6 +72,7 @@ class ShopCartController extends Controller
         exit;
 
     }
+
 
     /**
      * add to cart
@@ -141,8 +141,7 @@ class ShopCartController extends Controller
 
 
 
-            //exit;
-               // return redirect('/shop/cart');
+               return redirect('/shop/cart');
 
         }
 

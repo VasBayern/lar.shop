@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58472ff6-63a3-4993-971a-c91883722bea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_23_162324_create_shop_products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/07_427308.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/427308_sub2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/427308_sub7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/8e8754ef-7b20-2400-4d35-0015906167b9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20286.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20288-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20298-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20298-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20303-1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/apv20303-2_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/07_427308.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/427308_sub2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/427308_sub7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/8e8754ef-7b20-2400-4d35-0015906167b9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20286.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20288-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20298-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20298-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20303-1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/apv20303-2_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/tsn90695.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/thumbs/tsn90695_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/tsn90695.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/files/1/ABC/tsn90695_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/shop_dt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/lar.shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/lar.shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/authen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/authen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenuItemController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/ShopCartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/ShopCartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Admin/MenuItemModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Admin/MenuItemModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/source/fashion_club/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/source/fashion_club/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content/banners/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content/banners/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content/banners/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content/banners/submit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content/content/tag/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content/content/tag/delete.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/content/shop/product/submit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/content/shop/product/submit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/filetam.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/homepages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/homepages/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/shop/category/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/shop/category/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/shop/product/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/shop/product/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/shop/product/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/authen.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/authen.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/cart/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/cart/index1.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,10 +124,6 @@
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1935" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1flgt8khYElKLHfWGGnqqcfti89" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,10 +135,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/resources/views/frontend/shop/product/detail.blade.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fashion/fashion" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../videosourcecode1/16-authen/authen/resources/views/frontend/shop/product/detail.blade.php" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../../videosourcecode1-master/videosourcecode1-master/16-authen/authen/resources/views/admin/content/users" />
   </component>
@@ -249,7 +205,30 @@
       <workItem from="1580291141172" duration="173000" />
       <workItem from="1580291469179" duration="218000" />
       <workItem from="1580294921575" duration="634000" />
-      <workItem from="1596798307097" duration="1981000" />
+      <workItem from="1596798307097" duration="2303000" />
+      <workItem from="1596861761902" duration="45000" />
+      <workItem from="1596894841694" duration="3523000" />
+      <workItem from="1596898913631" duration="2565000" />
+      <workItem from="1596958438250" duration="1628000" />
+      <workItem from="1596969735852" duration="1724000" />
+      <workItem from="1596987726616" duration="4724000" />
+      <workItem from="1597029017522" duration="8416000" />
+      <workItem from="1597051121690" duration="3145000" />
+      <workItem from="1597074093769" duration="1920000" />
+      <workItem from="1597113399987" duration="678000" />
+      <workItem from="1597161385588" duration="42000" />
+      <workItem from="1597163761017" duration="8000" />
+      <workItem from="1597163795859" duration="1044000" />
+      <workItem from="1597263770947" duration="608000" />
+      <workItem from="1597310534032" duration="3594000" />
+      <workItem from="1597320834646" duration="1989000" />
+      <workItem from="1597324811650" duration="2586000" />
+      <workItem from="1597379078217" duration="9000" />
+      <workItem from="1597397788206" duration="84000" />
+      <workItem from="1597398226991" duration="877000" />
+      <workItem from="1597403627549" duration="717000" />
+      <workItem from="1597428478618" duration="2071000" />
+      <workItem from="1597503579085" duration="8314000" />
     </task>
     <task id="LOCAL-00001" summary="abc">
       <created>1596800267275</created>
@@ -277,10 +256,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1596800295798" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596800025123">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597503986495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596800025123" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597503986495" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1596861784691">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596861784691" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596800285133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

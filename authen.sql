@@ -11,7 +11,7 @@
  Target Server Version : 100410
  File Encoding         : 65001
 
- Date: 07/08/2020 18:38:36
+ Date: 17/08/2020 00:25:55
 */
 
 SET NAMES utf8mb4;
@@ -32,14 +32,12 @@ CREATE TABLE `admins`  (
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `admins_email_unique`(`email`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of admins
 -- ----------------------------
-INSERT INTO `admins` VALUES (1, 'Việt Anh', 'vastb98@gmail.com', NULL, '$2y$10$UxI44Rlo/3g.vgHIpB90Xu825Nd8ONHNte/mLX8lhbukPluAOOc5K', '1yH0qMoQ7UrmAmAD3wL6Ho11puHiN9Yh0yHwsLHF8U8hWpVWFeo0tIkowhhw', '2019-12-22 11:49:22', '2019-12-22 11:49:22');
-INSERT INTO `admins` VALUES (3, 'Việt', 'vastb1998@gmail.com', NULL, '$2y$10$AxI6xXI38IxKlAzdQScZNOB0biPWKPollWKi8ci5QrW26qXl6f57.', NULL, '2020-01-02 08:20:14', '2020-01-02 08:20:14');
-INSERT INTO `admins` VALUES (4, 'Boss', 'user1@gmail.com', NULL, '$2y$10$uGEUDgqCJ1BKxYtGVmK0PuKlvYCHgNq6GRgo1N8hJvIZpA8UiSk5m', NULL, '2020-01-02 08:20:56', '2020-01-02 08:20:56');
+INSERT INTO `admins` VALUES (6, 'Anh', 'admin@gmail.com', NULL, '$2y$10$vAz0S.hdJMkdpphf15MWhOhuEBTSqxOi1iqlXBVVv1BoMrU9OS5l6', NULL, '2020-08-16 17:25:21', '2020-08-16 17:25:21');
 
 -- ----------------------------
 -- Table structure for banners
@@ -481,7 +479,7 @@ CREATE TABLE `shop_category`  (
   `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `slug` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
-  `images` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `image` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `intro` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `desc` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp(0) NULL DEFAULT NULL,
@@ -549,12 +547,11 @@ CREATE TABLE `users`  (
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `users_email_unique`(`email`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, 'Việt', 'vastb98@gmail.com', NULL, '$2y$10$uUKAMBtbQibhOEJBvorso.ka1RXTTx3fe5XLGOqyTUuX8bDYkEP9C', NULL, '2020-01-02 08:27:11', '2020-01-02 08:27:11');
-INSERT INTO `users` VALUES (2, 'Anh', 'vastb1998@gmail.com', NULL, '$2y$10$0bdS7qlHqR7SC7yrKafw8.O3TEVi.fjqqa6AYSWHToPofj.uQDBsi', NULL, '2020-05-07 12:47:12', '2020-05-07 12:47:12');
+INSERT INTO `users` VALUES (3, 'Anh', 'admin@gmail.com', NULL, '$2y$10$8yK1X1J8ZzScnlxD.Upt/OBPpk0lPdoZvfgDuZ8XmtB9.Jwok9a1C', NULL, '2020-08-16 17:24:39', '2020-08-16 17:24:39');
 
 SET FOREIGN_KEY_CHECKS = 1;
